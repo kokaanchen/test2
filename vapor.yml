@@ -3,7 +3,7 @@ name: larave-vapor-test
 environments:
     production:
         memory: 128
-        cli-memory: 256
+        cli-memory: 128
         runtime: php-7.4
         database: laravel-vapor-test
         build:
@@ -11,7 +11,7 @@ environments:
             - 'php artisan event:cache'
     staging:
         memory: 128
-        cli-memory: 256
+        cli-memory: 128
         runtime: php-7.4
         database: laravel-vapor-test
         build:
