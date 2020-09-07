@@ -14,4 +14,4 @@ jobs:
       env:
         VAPOR_API_TOKEN: ${{ secrets.VAPOR_API_TOKEN }}
       with:
-        args: "deploy production"
+        args: "deploy staging"
