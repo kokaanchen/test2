@@ -9,7 +9,7 @@ jobs:
     name: Check out, build and deploy using Vapor
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@master
     - uses: ubient/laravel-vapor-action@master
       env:
         VAPOR_API_TOKEN: ${{ secrets.VAPOR_API_TOKEN }}
