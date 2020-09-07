@@ -1,6 +1,5 @@
 id: 13121
 name: larave-vapor-test
-separate-vendor: true
 environments:
     production:
         memory: 128
