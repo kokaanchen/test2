@@ -12,6 +12,6 @@ jobs:
     - uses: actions/checkout@master
     - uses: ubient/laravel-vapor-action@master
       env:
-        VAPOR_API_TOKEN: ${{ secrets.VAPOR_API_TOKEN }}
+        VAPOR_API_TOKEN: ${{ secrets.TEST2_SECRET }}
       with:
         args: "deploy staging"
