@@ -14,6 +14,4 @@ environments:
         cli-memory: 256
         runtime: php-7.4
         database: laravel-vapor-test
-        build:
-            - 'php artisan event:cache'
 
