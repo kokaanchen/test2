@@ -15,6 +15,5 @@ environments:
         runtime: php-7.4
         database: laravel-vapor-test
         build:
-            - 'COMPOSER_MIRROR_PATH_REPOS=1 composer install'
             - 'php artisan event:cache'
 
