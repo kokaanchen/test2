@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "test-run",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/Jjz0ar3aDC4uSTdWoXQH7T5KSu5NzA52H9znWJ4y9p4dtsOAe1",
+  "gitHubUrl": "https://github.com/kokaanchen/test",
+  "workFolder": "_work"
+}
